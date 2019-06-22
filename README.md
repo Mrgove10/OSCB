@@ -1,1 +1,2 @@
-OSCB
+# OSCB
+Open Source City Builder
