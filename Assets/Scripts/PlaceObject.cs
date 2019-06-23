@@ -12,7 +12,7 @@ public class PlaceObject : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             var objsnp = ObjectToSnap;
-            objsnp.GetComponent<Renderer>().material.color = Random.ColorHSV();
+           // objsnp.GetComponent<Renderer>().material.color = Random.ColorHSV();
             Instantiate(objsnp, SnappingScript.snapPosition, Quaternion.identity);
             Debug.Log("Clicked");
         }

@@ -13,32 +13,39 @@ public class CameraMouvement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Check if on the right edge
-        if ( Input.mousePosition.x >= Screen.width - mDelta )
+        
+        if ( Input.mousePosition.x >= Screen.width - mDelta ) // Check if on the right edge
         {
             Camera.main.transform.position += Time.deltaTime * mSpeed * Vector3.right;
             Debug.Log("going right");
         }
         
-        // Check if on the left edge
-        if ( Input.mousePosition.x <= mDelta )
+        if ( Input.mousePosition.x <= mDelta ) // Check if on the left edge
         {
             Camera.main.transform.position += Time.deltaTime * mSpeed * Vector3.left;
             Debug.Log("going left");
         }
         
-        // Check if on the up edge
-        if ( Input.mousePosition.y >= Screen.height - mDelta )
+        if ( Input.mousePosition.y >= Screen.height - mDelta ) // Check if on the up edge
         {
             Camera.main.transform.position += Time.deltaTime * mSpeed * Vector3.forward;
             Debug.Log("going up");
         }
         
-        // Check if on the down edge
-        if ( Input.mousePosition.y <=  mDelta )
+        if ( Input.mousePosition.y <=  mDelta ) // Check if on the down edge
         {
             Camera.main.transform.position += Time.deltaTime * mSpeed * Vector3.back;
             Debug.Log("going down");
+        }
+        
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f) // zooming in
+        {
+            Camera.main.transform.position += Time.deltaTime * mSpeed * Vector3.down;
+        }
+        
+        if (Input.GetAxis("Mouse ScrollWheel") < 0f) // zooming out
+        {
+            Camera.main.transform.position += Time.deltaTime * mSpeed * Vector3.up;
         }
     }
 }

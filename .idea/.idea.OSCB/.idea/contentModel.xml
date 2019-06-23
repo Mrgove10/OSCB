@@ -165,8 +165,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraMouvement.cs" t="Include" />
-          <e p="MouseToWorldPos.cs" t="Include" />
-          <e p="Placeble.cs" t="Include" />
+          <e p="Placeable.cs" t="Include" />
           <e p="PlaceObject.cs" t="Include" />
           <e p="SnapToGrid.cs" t="Include" />
         </e>
