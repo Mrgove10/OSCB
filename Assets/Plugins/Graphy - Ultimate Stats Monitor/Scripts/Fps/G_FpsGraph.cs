@@ -9,11 +9,12 @@
  * Attribution is not required, but it is always welcomed!
  * -------------------------------------*/
 
-using Tayx.Graphy.Graph;
+using Plugins.Scripts.Graph;
+using Plugins.Scripts.Shader;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Tayx.Graphy.Fps
+namespace Plugins.Scripts.Fps
 {
     public class G_FpsGraph : G_Graph
     {
@@ -27,8 +28,8 @@ namespace Tayx.Graphy.Fps
 
         [SerializeField] private    Image           m_imageGraph = null;
 
-        [SerializeField] private    Shader          ShaderFull = null;
-        [SerializeField] private    Shader          ShaderLight = null;
+        [SerializeField] private    UnityEngine.Shader          ShaderFull = null;
+        [SerializeField] private    UnityEngine.Shader          ShaderLight = null;
 
         #endregion
 

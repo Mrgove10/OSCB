@@ -12,7 +12,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Tayx.Graphy
+namespace Plugins.Scripts.Shader
 {
     /// <summary>
     /// This class communicates directly with the shader to draw the graphs. Performance here is of upmost importance
@@ -92,14 +92,14 @@ namespace Tayx.Graphy
         {
             Image.material.SetFloatArray(Name, new float[ArrayMaxSize]);
 
-            averagePropertyId           = Shader.PropertyToID("Average");
+            averagePropertyId           = UnityEngine.Shader.PropertyToID("Average");
 
-            goodThresholdPropertyId     = Shader.PropertyToID("_GoodThreshold");
-            cautionThresholdPropertyId  = Shader.PropertyToID("_CautionThreshold");
+            goodThresholdPropertyId     = UnityEngine.Shader.PropertyToID("_GoodThreshold");
+            cautionThresholdPropertyId  = UnityEngine.Shader.PropertyToID("_CautionThreshold");
 
-            goodColorPropertyId         = Shader.PropertyToID("_GoodColor");
-            cautionColorPropertyId      = Shader.PropertyToID("_CautionColor");
-            criticalColorPropertyId     = Shader.PropertyToID("_CriticalColor");
+            goodColorPropertyId         = UnityEngine.Shader.PropertyToID("_GoodColor");
+            cautionColorPropertyId      = UnityEngine.Shader.PropertyToID("_CautionColor");
+            criticalColorPropertyId     = UnityEngine.Shader.PropertyToID("_CriticalColor");
         }
 
         /// <summary>

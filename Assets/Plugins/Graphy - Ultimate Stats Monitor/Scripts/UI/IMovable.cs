@@ -9,7 +9,7 @@
  * Attribution is not required, but it is always welcomed!
  * -------------------------------------*/
 
-namespace Tayx.Graphy.UI
+namespace Plugins.Scripts.UI
 {
     public interface IMovable
     {

@@ -10,12 +10,12 @@
  * -------------------------------------*/
 
 using UnityEngine;
-
-#if UNITY_5_5_OR_NEWER
 using UnityEngine.Profiling;
+#if UNITY_5_5_OR_NEWER
+
 #endif
 
-namespace Tayx.Graphy.Ram
+namespace Plugins.Scripts.Ram
 {
     public class G_RamMonitor : MonoBehaviour
     {

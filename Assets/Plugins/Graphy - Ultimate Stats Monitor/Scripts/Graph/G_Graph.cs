@@ -11,7 +11,7 @@
 
 using UnityEngine;
 
-namespace Tayx.Graphy.Graph
+namespace Plugins.Scripts.Graph
 {
     public abstract class G_Graph : MonoBehaviour
     {

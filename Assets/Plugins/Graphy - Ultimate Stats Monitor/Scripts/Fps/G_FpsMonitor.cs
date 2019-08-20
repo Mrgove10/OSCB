@@ -9,10 +9,10 @@
  * Attribution is not required, but it is always welcomed!
  * -------------------------------------*/
 
-using UnityEngine;
 using System.Runtime.CompilerServices;
+using UnityEngine;
 
-namespace Tayx.Graphy.Fps
+namespace Plugins.Scripts.Fps
 {
     public class G_FpsMonitor : MonoBehaviour
     {

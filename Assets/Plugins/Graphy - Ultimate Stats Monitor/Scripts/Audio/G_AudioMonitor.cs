@@ -12,7 +12,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Tayx.Graphy.Audio
+namespace Plugins.Scripts.Audio
 {
     public class G_AudioMonitor : MonoBehaviour
     {
@@ -194,7 +194,7 @@ namespace Tayx.Graphy.Audio
             }
         }
 
-        private void OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode)
+        private void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, LoadSceneMode loadSceneMode)
         {
             if (m_findAudioListenerInCameraIfNull == GraphyManager.LookForAudioListener.ON_SCENE_LOAD)
             {

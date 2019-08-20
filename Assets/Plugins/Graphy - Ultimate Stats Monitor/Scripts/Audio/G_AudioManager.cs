@@ -9,13 +9,13 @@
  * Attribution is not required, but it is always welcomed!
  * -------------------------------------*/
 
+using System.Collections.Generic;
+using Plugins.Scripts.UI;
+using Plugins.Scripts.Util;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
-using Tayx.Graphy.UI;
-using Tayx.Graphy.Utils;
 
-namespace Tayx.Graphy.Audio
+namespace Plugins.Scripts.Audio
 {
     public class G_AudioManager : MonoBehaviour, IMovable, IModifiableState
     {

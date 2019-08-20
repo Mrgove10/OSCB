@@ -10,14 +10,14 @@
  * -------------------------------------*/
 
 using System;
-using UnityEngine;
 using System.IO;
 using UnityEditor;
+using UnityEngine;
 
-namespace Tayx.Graphy
+namespace Plugins.Scripts.Editor
 {
     [CustomEditor(typeof(GraphyManager))]
-    internal class GraphyManagerEditor : Editor
+    internal class GraphyManagerEditor : UnityEditor.Editor
     {
         /* ----- TODO: ----------------------------
          * Add summaries to the variables.

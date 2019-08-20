@@ -5,14 +5,15 @@ using UnityEngine;
 
 public class SnapToGrid : MonoBehaviour
 {
-    public GameObject ObjectToSnap;
+    public PlaceObject PlaceObjectScript;
     public Vector3 snapPosition;
     public Vector3 MousePosition;
-
+    
+    private GameObject myobj;
     private void Start()
     {
         getMousePos();
-        Instantiate(ObjectToSnap,MousePosition,Quaternion.identity);
+        myobj = Instantiate(PlaceObjectScript.ObjectToSnap,MousePosition,Quaternion.identity);
     }
 
     // Update is called once per frame
@@ -20,7 +21,7 @@ public class SnapToGrid : MonoBehaviour
     {
         getMousePos();
         snapPosition = new Vector3(Mathf.Round(MousePosition.x),Mathf.Round(0),Mathf.Round(MousePosition.z));
-        ObjectToSnap.transform.position = snapPosition;
+        myobj.transform.position = snapPosition;
     }
 
     void getMousePos()

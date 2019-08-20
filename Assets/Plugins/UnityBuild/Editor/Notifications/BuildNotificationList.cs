@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using Plugins.UnityBuild.Editor.Build.Platform;
+using Plugins.UnityBuild.Editor.Build.Settings;
 
-namespace SuperSystems.UnityBuild
+namespace Plugins.UnityBuild.Editor.Notifications
 {
 
 [Serializable]

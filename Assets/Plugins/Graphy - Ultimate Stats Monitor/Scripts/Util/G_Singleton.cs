@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace Tayx.Graphy.Utils
+namespace Plugins.Scripts.Util
 {
     /// <summary>
     /// Be aware this will not prevent a non singleton constructor

@@ -10,15 +10,15 @@
  * -------------------------------------*/
 
 using System;
-using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
+using UnityEngine;
 
-namespace Tayx.Graphy
+namespace Plugins.Scripts.Editor
 {
     [CustomEditor(typeof(GraphyDebugger))]
-    internal class GraphyDebuggerEditor : Editor
+    internal class GraphyDebuggerEditor : UnityEditor.Editor
     {
         /* ----- TODO: ----------------------------
          * Add summaries to the variables.

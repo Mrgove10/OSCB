@@ -12,9 +12,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-using System.Collections;
-
-namespace Tayx.Graphy.CustomizationScene
+namespace Plugins.Scene.Customization_Scripts
 {
 	public class ForceSliderToMultipleOf3 : MonoBehaviour
 	{

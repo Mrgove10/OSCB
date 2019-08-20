@@ -9,19 +9,17 @@
  * Attribution is not required, but it is always welcomed!
  * -------------------------------------*/
 
-using UnityEngine;
-using UnityEngine.Events;
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Plugins.Scripts.Audio;
+using Plugins.Scripts.Fps;
+using Plugins.Scripts.Ram;
+using Plugins.Scripts.Util;
+using UnityEngine;
+using UnityEngine.Events;
 
-using Tayx.Graphy.Audio;
-using Tayx.Graphy.Fps;
-using Tayx.Graphy.Ram;
-using Tayx.Graphy.Utils;
-
-namespace Tayx.Graphy
+namespace Plugins.Scripts
 {
     public class GraphyDebugger : G_Singleton<GraphyDebugger>
     {

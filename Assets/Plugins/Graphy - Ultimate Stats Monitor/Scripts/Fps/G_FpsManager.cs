@@ -9,13 +9,13 @@
  * Attribution is not required, but it is always welcomed!
  * -------------------------------------*/
 
-using UnityEngine;
 using System.Collections.Generic;
-using Tayx.Graphy.UI;
-using Tayx.Graphy.Utils;
+using Plugins.Scripts.UI;
+using Plugins.Scripts.Util;
+using UnityEngine;
 using UnityEngine.UI;
 
-namespace Tayx.Graphy.Fps
+namespace Plugins.Scripts.Fps
 {
     public class G_FpsManager : MonoBehaviour, IMovable, IModifiableState
     {

@@ -1,7 +1,8 @@
-﻿using UnityEditor;
+﻿using Plugins.UnityBuild.Editor.Build.UI;
+using UnityEditor;
 using UnityEngine;
 
-namespace SuperSystems.UnityBuild
+namespace Plugins.UnityBuild.Editor.Notifications.UI
 {
 
 [CustomPropertyDrawer(typeof(BuildNotificationList))]

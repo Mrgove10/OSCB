@@ -9,11 +9,11 @@
  * Attribution is not required, but it is always welcomed!
  * -------------------------------------*/
 
+using Plugins.Scripts.Util;
 using UnityEngine;
 using UnityEngine.UI;
-using Tayx.Graphy.Utils.NumString;
 
-namespace Tayx.Graphy.Fps
+namespace Plugins.Scripts.Fps
 {
     public class G_FpsText : MonoBehaviour
     {

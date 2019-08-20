@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using System.IO;
+using Plugins.UnityBuild.Editor.Build.UI;
 using UnityEditor;
-using System.IO;
+using UnityEngine;
 
-namespace SuperSystems.UnityBuild
+namespace Plugins.UnityBuild.Editor.Generic
 {
 
 [CustomPropertyDrawer(typeof(FilePathAttribute))]

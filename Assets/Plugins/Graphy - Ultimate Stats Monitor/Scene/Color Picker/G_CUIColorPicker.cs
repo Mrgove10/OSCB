@@ -24,11 +24,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Tayx.Graphy.CustomizationScene
+namespace Plugins.Scene.Color_Picker
 {
     public class G_CUIColorPicker : MonoBehaviour
     {

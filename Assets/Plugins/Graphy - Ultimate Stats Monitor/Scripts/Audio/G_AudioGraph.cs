@@ -9,11 +9,12 @@
  * Attribution is not required, but it is always welcomed!
  * -------------------------------------*/
 
-using Tayx.Graphy.Graph;
+using Plugins.Scripts.Graph;
+using Plugins.Scripts.Shader;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Tayx.Graphy.Audio
+namespace Plugins.Scripts.Audio
 {
     public class G_AudioGraph : G_Graph
     {
@@ -28,8 +29,8 @@ namespace Tayx.Graphy.Audio
         [SerializeField] private    Image           m_imageGraph = null;
         [SerializeField] private    Image           m_imageGraphHighestValues = null;
 
-        [SerializeField] private    Shader          ShaderFull = null;
-        [SerializeField] private    Shader          ShaderLight = null;
+        [SerializeField] private    UnityEngine.Shader          ShaderFull = null;
+        [SerializeField] private    UnityEngine.Shader          ShaderLight = null;
 
         #endregion
 

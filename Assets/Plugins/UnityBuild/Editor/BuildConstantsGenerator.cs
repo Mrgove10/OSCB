@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
+using Plugins.UnityBuild.Editor.Build.Platform;
+using Plugins.UnityBuild.Editor.Build.Settings;
 using UnityEditor;
 using UnityEngine;
 
-namespace SuperSystems.UnityBuild
+namespace Plugins.UnityBuild.Editor
 {
 
 public static class BuildConstantsGenerator

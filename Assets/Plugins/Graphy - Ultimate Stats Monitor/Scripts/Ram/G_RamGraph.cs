@@ -9,15 +9,15 @@
  * Attribution is not required, but it is always welcomed!
  * -------------------------------------*/
 
-using Tayx.Graphy.Graph;
+using Plugins.Scripts.Graph;
+using Plugins.Scripts.Shader;
 using UnityEngine;
 using UnityEngine.UI;
-
 #if UNITY_5_5_OR_NEWER
-using UnityEngine.Profiling;
+
 #endif
 
-namespace Tayx.Graphy.Ram
+namespace Plugins.Scripts.Ram
 {
     public class G_RamGraph : G_Graph
     {
@@ -33,8 +33,8 @@ namespace Tayx.Graphy.Ram
         [SerializeField] private    Image           m_imageReserved = null;
         [SerializeField] private    Image           m_imageMono = null;
 
-        [SerializeField] private    Shader          ShaderFull = null;
-        [SerializeField] private    Shader          ShaderLight = null;
+        [SerializeField] private    UnityEngine.Shader          ShaderFull = null;
+        [SerializeField] private    UnityEngine.Shader          ShaderLight = null;
 
         #endregion
 

@@ -11,7 +11,7 @@
 
 using UnityEngine;
 
-namespace Tayx.Graphy.Utils.NumString
+namespace Plugins.Scripts.Util
 {
     public static class G_IntString
     {

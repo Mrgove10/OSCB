@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using UnityEngine;
 
-namespace SuperSystems.UnityBuild
+namespace Plugins.UnityBuild.Editor.Generic
 {
 
 public class FilePathAttribute : PropertyAttribute

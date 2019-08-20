@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using UnityEngine;
 
-namespace SuperSystems.UnityBuild
+namespace Plugins.UnityBuild.Editor.Generic
 {
 
 [Serializable, DebuggerDisplay("Count = {Count}")]

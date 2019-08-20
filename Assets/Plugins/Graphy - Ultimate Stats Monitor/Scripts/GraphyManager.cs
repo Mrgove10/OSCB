@@ -10,14 +10,14 @@
  * -------------------------------------*/
 
 using System;
+using Plugins.Scripts.Advanced;
+using Plugins.Scripts.Audio;
+using Plugins.Scripts.Fps;
+using Plugins.Scripts.Ram;
+using Plugins.Scripts.Util;
 using UnityEngine;
-using Tayx.Graphy.Audio;
-using Tayx.Graphy.Fps;
-using Tayx.Graphy.Ram;
-using Tayx.Graphy.Utils;
-using Tayx.Graphy.Advanced;
 
-namespace Tayx.Graphy
+namespace Plugins.Scripts
 {
     //[ExecuteInEditMode]
     public class GraphyManager : G_Singleton<GraphyManager>

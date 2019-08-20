@@ -1,5 +1,5 @@
 ﻿
-namespace SuperSystems.UnityBuild
+namespace Plugins.UnityBuild.Editor.Notifications
 {
 
 [System.Serializable]
